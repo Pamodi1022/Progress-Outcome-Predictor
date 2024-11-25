@@ -3,7 +3,7 @@ from graphics import*
 #Function to get the user
 def user():
     user_list = ['student','staff']
-    input_user = input("If you are a student enter 'student' or you are a staff member enter 'staff':").lower()
+    input_user = input("If you are a student enter 'student' or you are a staff member enter 'staff': ").lower()
     if input_user in user_list:
         return input_user
     else:
